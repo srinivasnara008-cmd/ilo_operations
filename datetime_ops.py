@@ -22,7 +22,7 @@ def get_datetime(session):
     Returns:
         DateTime resource as dict, or None on failure.
     """
-    print("[INFO] Fetching current DateTime settings...")
+    print("[INFO] Fetching current DateTime settings of iLO...")
     return safe_get(session, session.datetime_url, "DateTime")
 
 
