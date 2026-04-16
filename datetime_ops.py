@@ -2,10 +2,7 @@
 datetime_ops.py
 ---------------
 All iLO DateTime operations:
-  - Fetch current DateTime settings
-  - List available timezones
-  - Find timezone index by partial name
-  - Set timezone + PropagateTimeToHost
+  - Fetch current DateTime setting
   - Set static NTP servers
 """
 
